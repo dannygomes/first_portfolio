@@ -1,0 +1,61 @@
+body {
+    font-family: 'Manrope', sans-serif;
+    background-color: #201e1f;
+    color: #feefdd;
+}
+
+#main {
+    position: relative; 
+    height: 95vh;
+}
+
+nav {
+    border-bottom: 1px solid #feefdd;
+}
+
+a {
+    color: #feefdd;
+}
+
+.dot {
+    color: #ff6500;
+}
+
+.intro {
+    /*position: absolute;
+    top: 16rem;
+    left: 10rem;*/
+    color: #feefdd;
+    font-size: 2rem;
+    margin-left: 12rem;
+}
+
+.name {
+    font-weight: 600;
+    font-size: 5rem;
+}
+
+.stripe {
+    padding-top: 15%;
+    width: 45rem;
+}
+
+.blue {
+    background-color: #329ebb;
+}
+
+.green {
+    background-color: #b1bf52;
+}
+
+.yellow {
+    background-color: #ebdf41;
+}
+
+.orange {
+ background-color: #e48c5c;
+}
+
+.pink {
+    background-color: #d53492;
+}
