@@ -59,3 +59,44 @@ a {
 .pink {
     background-color: #d53492;
 }
+
+.project {
+    margin: 1rem;
+    padding-top: 21%;
+    background-size: cover;
+}
+
+.align-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.projects {
+    text-align: center;
+    font-size: 3rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+  }
+
+.blue-border {
+      border: 10px solid #329ebb;
+  }  
+
+.green-border {
+    border: 10px solid #b1bf52;
+  }     
+
+.yellow-border {
+    border: 10px solid #ebdf41;
+  }   
+  
+.orange-border {
+    border: 10px solid #e48c5c;
+  }
+
+.pink-border {
+    border: 10px solid #d53492;
+  }  
