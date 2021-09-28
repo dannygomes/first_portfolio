@@ -22,12 +22,9 @@ a {
 }
 
 .intro {
-    /*position: absolute;
-    top: 16rem;
-    left: 10rem;*/
     color: #feefdd;
     font-size: 2rem;
-    margin-left: 12rem;
+    margin-left: 11rem;
 }
 
 .name {
@@ -35,9 +32,13 @@ a {
     font-size: 5rem;
 }
 
+.colorful {
+    overflow: hidden;
+}
+
 .stripe {
     padding-top: 15%;
-    width: 45rem;
+    width: 38vw;
 }
 
 .blue {
@@ -56,14 +57,12 @@ a {
  background-color: #e48c5c;
 }
 
-.pink {
-    background-color: #d53492;
+.dark-orange {
+    background-color: #ff6500;
 }
 
-.project {
-    margin: 1rem;
-    padding-top: 21%;
-    background-size: cover;
+.pink {
+    background-color: #d53492;
 }
 
 .align-row {
@@ -71,9 +70,10 @@ a {
     justify-content: space-between;
 }
 
-.projects {
+.projects-title {
     text-align: center;
     font-size: 3rem;
+    margin-bottom: 7rem;
 }
 
 img {
@@ -93,6 +93,11 @@ img {
     border: 10px solid #ebdf41;
   }   
   
+
+.dark-orange-border {
+    border: 10px solid #ff6500;
+}
+
 .orange-border {
     border: 10px solid #e48c5c;
   }
@@ -100,3 +105,117 @@ img {
 .pink-border {
     border: 10px solid #d53492;
   }  
+
+.project {
+    font-size: 1.5rem;
+    color: #201e1f;
+} 
+
+@media (max-width:1500px) {
+    .intro {
+        margin-left: 6rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    .intro {
+        font-size: 1.5rem;
+    }
+
+    .name {
+        font-size: 4rem;
+    }
+
+    .projects-title {
+        font-size: 2.4rem;
+        margin-bottom: 5rem;
+    }
+
+    .project {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width:992px) {
+
+    .stripe {
+        padding-top: 15%;
+        width: 46vw;
+    }
+
+    .intro {
+        font-size: 1.5rem;
+        display: inline-block;
+        width: 32vw;
+        margin-left: 10%;
+    }
+
+    .name {
+        font-size: 4.5rem;
+    }
+
+    .projects-title {
+        font-size: 2rem;
+        margin-bottom: 3rem;
+    }
+
+    .project {
+        font-size: 1.1rem;
+    }
+}
+
+
+
+@media (max-width:768px) {
+    .intro {
+        display: inline-block;
+        width: 100%;
+        margin-left: 10%;
+        z-index: 1;
+    }
+
+    #colorful {
+        position: absolute;
+        top: 20%;
+        right: 0;
+    }
+
+    .stripe {
+        height: 10vh;
+        width: 50vw;
+    }
+
+    .box-textshadow {
+        text-shadow: 2px 2px 0px #201e1f;
+   }
+
+   .nobox-textshadow {
+       text-shadow: 0px 0px 0px #201e1f;
+   }
+}
+
+@media (max-width:576px) {
+    .name {
+        font-size: 3.5rem;
+    }
+
+    .projects-title {
+        font-size: 1.5rem;
+        margin-bottom: 3rem;
+    }
+
+    .project {
+        font-size: .9rem;
+    }
+}
+
+@media (max-width:440px) {
+    .name {
+        font-size: 3rem;
+    }
+
+    .projects-title {
+        font-size: 1.3rem;
+        margin-bottom: 3rem;
+    }
+}
